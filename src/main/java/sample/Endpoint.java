@@ -6,6 +6,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Controller;
 
 
 import javax.ws.rs.GET;
@@ -21,7 +22,7 @@ import java.util.Map;
 /**
  * Created by abdul on 10/2/2016.
  */
-
+@Controller
 @Path("/hello")
 public class Endpoint {
 
